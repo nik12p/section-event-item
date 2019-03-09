@@ -1,1 +1,27 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.event-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #e91e63;
+  padding: 10px;
+}
+/*# sourceMappingURL=style.css.map */
+.event-img-frame {
+  display: block;
+  border: 2px solid red;
+  min-width: 200px;
+  height: 260px;
+  background-image: url(/img/image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.event-contenet-top {
+  display: flex;
+  padding: 0px 20px;
+}
